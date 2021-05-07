@@ -18,7 +18,7 @@
 Notes
 
 shift alt f
-
+```javascript
 function Welcome(props) {
 return <h1>Hello, {props.name} </h1>
 }
@@ -27,9 +27,10 @@ function App() {
       <Welcome name={"Cr"} />
   );
 }
-
+```
 
 # styled-components 
+```javascript
 const MyButton = styled.div`
   color:green;
   ${props => props.primary && css`
@@ -51,3 +52,4 @@ function App() {
     </div>
   );
 }
+```
