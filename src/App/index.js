@@ -1,11 +1,13 @@
 import "./App.css";
 import Welcome from "./WelcomeMessage";
-import AppLayout from "./AppLayout"
+import AppLayout from "./AppLayout";
+import AppBar from "./AppBar"
 
 function App() {
   return (
     <AppLayout>
-      <Welcome/>
+      <Welcome />
+      <AppBar />
     </AppLayout>
   );
 }
