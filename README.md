@@ -61,5 +61,14 @@ State manager of the app
 const MyContext = React.createContext(defaultValue);
 
 ```
-Provider - you wrap the component with it to pass the state 
+Provider - you wrap the component with it to pass the state  - just wraps the APP
 Consumer - re render when the provider's value changes (notifies the consumer)
+
+```javascript
+<AppContext.Consumer>
+  {({page}) => (
+  <ControlButtonElem active={page === name}>
+    {toProperCase(name)}
+  </ControlButtonElem>)}
+</AppContext.Consumer>
+```
