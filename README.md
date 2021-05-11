@@ -3,7 +3,7 @@
 - React
 - Styled-components
 - CSS Grid
-
+- Context API
 - CryptoCompare API
 - HighCharts
 - Asynch/await
@@ -53,3 +53,13 @@ function App() {
   );
 }
 ```
+
+# Context API
+State manager of the app
+
+```javascript
+const MyContext = React.createContext(defaultValue);
+
+```
+Provider - you wrap the component with it to pass the state 
+Consumer - re render when the provider's value changes (notifies the consumer)
