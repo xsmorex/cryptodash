@@ -15,7 +15,10 @@ export class AppProvider extends React.Component {
   }
 
   confirmFavourites(){
-    console.log("Hello")
+    this.setState({
+      firstVisit: false,
+      page: 'dashboard'
+    });
   }
 
   savedSettings(){
