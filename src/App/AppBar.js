@@ -42,7 +42,7 @@ export default function() {
   return <Bar>
       <Logo>Cryptodash</Logo>
       <div/>
-      <ControlButton active name="dashboard"></ControlButton>
+      <ControlButton name="dashboard"></ControlButton>
       <ControlButton name="settings"></ControlButton>
   </Bar>
 }
