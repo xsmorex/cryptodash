@@ -7,3 +7,10 @@ export const Tile = styled.div`
   ${lightBlueBackground}
   padding:10px;
 `
+
+export const SelactableTile = styled(Tile)`
+  &:hover{
+    cursor: pointer;
+    ${greenBoxShadow}
+  }
+`
