@@ -1,5 +1,4 @@
 
-
 export default function({coin,style}){
 
   return <img 
@@ -9,5 +8,4 @@ export default function({coin,style}){
       coin.ImageUrl
     }`}
   />;
-
 }
