@@ -5,7 +5,7 @@ export default function (props){
     {({coinList}) =>{
       if(!coinList){
         return <div>
-          Loading Coins
+          Loading Coins...
         </div>
       }
       return <div>{props.children}</div>
