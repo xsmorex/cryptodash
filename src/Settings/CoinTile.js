@@ -16,7 +16,7 @@ export default function({coinKey, topSection}){
       }
 
       return <TileClass>
-        <CoinHeaderGrid name={coin.CoinName} symbol={coin.Symbol}/>
+        <CoinHeaderGrid topSection={topSection} name={coin.CoinName} symbol={coin.Symbol}/>
         <CoinImage coin={coin} />
       </TileClass>
 
