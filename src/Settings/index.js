@@ -3,13 +3,13 @@ import ConfirmButton from "./ConfirmButton";
 import Page from "../Shared/Page";
 import CoinGrid from "./CoinGrid";
 
-export default function(){
+export default function () {
   return (
-  <Page name="settings">
-    <WelcomeMessage/>
-    <CoinGrid topSection/>
-    <ConfirmButton/>
-    <CoinGrid />
-  </Page>
-  )
+    <Page name="settings">
+      <WelcomeMessage />
+      <CoinGrid topSection />
+      <ConfirmButton />
+      <CoinGrid />
+    </Page>
+  );
 }

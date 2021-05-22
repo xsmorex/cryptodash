@@ -11,7 +11,7 @@ function App() {
       <AppProvider>
         <AppBar />
         <Content>
-          <Settings />          
+          <Settings />
         </Content>
       </AppProvider>
     </AppLayout>
