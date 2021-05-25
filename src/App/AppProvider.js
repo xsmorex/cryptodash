@@ -28,6 +28,11 @@ export class AppProvider extends React.Component {
     this.setState({ coinList });
   };
 
+
+  addCoin = key => {
+    
+  }
+
   confirmFavourites = () => {
     this.setState({
       firstVisit: false,
